@@ -1,0 +1,4 @@
+#! /bin/sh
+
+[ -e $SNAP_DATA/dnsmasq.conf ] || cp $SNAP/etc/dnsmasq.conf $SNAP_DATA/
+
